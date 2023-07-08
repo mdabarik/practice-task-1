@@ -1,0 +1,28 @@
+.reset {
+    position: relative;
+    left: -25px;
+}
+
+.reset > input {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.submit {
+    margin-left: -20px;
+}
+
+.photo {
+    display: block;
+    margin-top: 30px;
+}
+
+.feedback > label {
+    display: block;
+    margin-top: 10px;
+}
+
+.feedback > label > input, textarea {
+    display: block;
+}

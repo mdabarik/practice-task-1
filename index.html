@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Mini Blog</title>
+</head>
+<body>
+    <!--Header section of our blog-->
+    <header>
+        <form action="#">
+            <label for="search">
+                Search Your Images Here:
+                <input id="search" type="text" placeholder="Type Your Text">
+            </label>
+            <label class="reset" for="reset">
+                <input id="reset" type="reset" value="x">
+            </label>
+            <label class="submit" for="submit">
+                <input id="submit" type="button" value="Search">
+            </label>
+        </form>
+        <img class="photo" width="200px" height="200px" src="./images/photo.png" alt="photo comming soon">
+        <a href="#">For more click here</a>
+        <hr>
+    </header>
+
+    <!--Main section of our blog-->
+    <main>
+        <caption>Feedback form</caption>
+        <form class="feedback" action="#">
+            <label for="name">
+                Name:
+                <input type="text" name="name" id="name">
+            </label>
+            <label for="date">
+                Date:
+                <input type="date" name="date" id="date">
+            </label>
+            <label for="comment">
+                Comment:
+                <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            </label>
+            <label for="submit">
+                <input type="submit" value="Submit">
+            </label>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
